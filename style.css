@@ -236,7 +236,7 @@
 .communities{
     display: flex;
     flex-direction: row;
-    margin-right: 100px;
+
     
 
 
@@ -247,7 +247,7 @@
 
     width: 30px;
     height: 30px;
-    margin-left:70px;
+    margin-left:22px;
 
 
 
@@ -386,6 +386,198 @@ background-color: #197eb4;
     font-weight: 900;
     margin-top: 6px;
     margin-left: 15px;
+
+
+}
+
+
+/* START OF HEADER HERE*/
+
+
+.right{
+
+display: flex;
+flex-direction: column;
+
+
+}
+
+.searchsection{
+
+    display: flex;
+    flex-direction: column;
+    border: 1px solid;
+    padding: 10px;
+    border-left: 0;
+    border-top: 0;
+    border-right: 0;
+    box-shadow: 1px 4px 5px black;
+    background-color: white;
+    width: 1880px;
+    height: 230px;
+    
+    
+
+}
+
+.search{
+
+    display: flex;
+    flex-direction: row;
+    justify-content: baseline;
+    align-items: center;
+
+
+}
+
+.search-icon{
+
+    width: 30px;
+    height: 30px;
+    margin-left: 40px;
+
+}
+
+.searchbar{
+    width: 700px;
+    height: 30px;
+    margin-left: 20px;
+    border-radius: 20px;
+    border:none;
+    background-color: #E2E8F0;
+    padding-left: 10px;
+    padding-right: 10px;
+    text-align: left;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+    
+    
+
+
+
+}
+
+
+.account{
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 60px;
+    margin-left: 400px;
+    height: 100px;
+    
+
+
+}
+
+
+
+.notification-icon{
+
+    width: 30px;
+    height: 30px;
+
+}
+
+.profile-picture{
+
+    
+    width: 60px;
+    height: 60px;
+    border-radius: 80%;
+    top:40px;
+   
+    
+    
+
+
+}
+
+.name-text{
+
+
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 900;
+    font-size: 20px;
+
+}
+
+.bottomheader{
+
+    display: flex;
+    flex-direction: row;
+    height: 200px;
+
+}
+.bigger-profile{
+
+
+
+    width: 100px;
+    height: 100px;
+    border-radius: 80%;
+    margin-left: 30px;
+
+
+}
+
+
+.hello-text{
+
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+    margin-left: 50px;
+
+}
+
+.greetings{
+    
+    margin-bottom: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 800;
+
+
+
+}
+.fullname{
+
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 800;
+    font-size: 30px;
+
+
+}
+
+.buttons{
+
+    display: flex;
+    flex-direction: row;
+    gap:100px;
+    align-items: center;
+    margin-left: 500px;
+    margin-bottom: 10px;
+}
+
+
+.btn{
+
+    background-color: #1992D4;
+    color: white;
+    width: 100px;
+    height: 40px;
+    border-radius: 40%;
+    border: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+
+}
+
+
+.right{
+
+background-color: #E2E8F0;
 
 
 }
