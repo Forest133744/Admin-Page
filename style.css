@@ -54,9 +54,26 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 15px;
+    
 
 
+
+
+}
+
+.links div{
+
+    width: 250px;
+    height: 50px;
+    align-items: center;
+
+
+}
+
+.links div:hover{
+
+    cursor: pointer;
+    background-color: #197eb4;
 
 
 }
@@ -65,7 +82,7 @@
     display: flex;
     flex-direction: row;
     margin-top: 100px;
-    margin-right: 100px;
+    
     
 
 
@@ -76,6 +93,7 @@
 
     width: 30px;
     height: 30px;
+    margin-left: 21px;
 
 
 
@@ -86,7 +104,6 @@
     font-size: 20px;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: 900;
-    background-color: #1992D4;
     margin-top: 6px;
     margin-left: 15px;
 
@@ -97,7 +114,7 @@
 .profile{
     display: flex;
     flex-direction: row;
-    margin-right: 100px;
+    
     
 
 
@@ -108,7 +125,7 @@
 
     width: 30px;
     height: 30px;
-    margin-left: 5px;
+    margin-left: 21px;
 
 
 
@@ -119,7 +136,6 @@
     font-size: 20px;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: 900;
-    background-color: #1992D4;
     margin-top: 6px;
     margin-left: 15px;
 
@@ -128,7 +144,7 @@
 .messages{
     display: flex;
     flex-direction: row;
-    margin-right: 100px;
+   
     
 
 
@@ -139,7 +155,7 @@
 
     width: 30px;
     height: 30px;
-    margin-left: 40px;
+    margin-left: 21px;
 
 
 
@@ -150,7 +166,224 @@
     font-size: 20px;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: 900;
+    margin-top: 6px;
+    margin-left: 15px;
+
+
+}
+
+.history{
+    display: flex;
+    flex-direction: row;
+    
+    
+
+
+
+}
+
+.history-icon{
+
+    width: 30px;
+    height: 30px;
+    margin-left: 20px;
+
+
+
+}
+.history-text{
+
+    color: white;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 900;
+    margin-top: 6px;
+    margin-left: 15px;
+
+
+}
+
+.tasks{
+    display: flex;
+    flex-direction: row;
+   
+
+
+
+}
+
+.tasks-icon{
+
+    width: 30px;
+    height: 30px;
+    margin-left: 20px;
+
+
+
+}
+.tasks-text{
+
+    color: white;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 900;
+    margin-top: 6px;
+    margin-left: 15px;
+
+
+}
+
+.communities{
+    display: flex;
+    flex-direction: row;
+    margin-right: 100px;
+    
+
+
+
+}
+
+.communities-icon{
+
+    width: 30px;
+    height: 30px;
+    margin-left:70px;
+
+
+
+}
+.communities-text{
+
+    color: white;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 900;
+    margin-top: 6px;
+    margin-left: 15px;
+
+
+}
+/* THE END OF THE FIRST LINK PART OF THE DASHBOARD*/
+
+
+.secondary-links{
+
+    display: flex;
+    flex-direction: column;
     background-color: #1992D4;
+    height: 400px;
+
+
+}
+
+.secondary-links div{
+
+    width: 250px;
+    height: 50px;
+    align-items: center;
+    
+
+}
+
+.secondary-links div:hover{
+cursor: pointer;
+background-color: #197eb4;
+
+}
+
+.settings{
+    display: flex;
+    flex-direction: row;
+    margin-right: 130px;
+    
+    
+
+
+
+}
+
+.settings-icon{
+
+    width: 30px;
+    height: 30px;
+    margin-left:22px;
+
+
+
+}
+.settings-text{
+
+    color: white;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 900;
+    margin-top: 6px;
+    margin-left: 15px;
+    
+
+
+}
+
+.support{
+    display: flex;
+    flex-direction: row;
+    margin-right: 100px;
+    
+
+
+
+}
+
+.support-icon{
+
+    width: 30px;
+    height: 30px;
+    margin-left:22px;
+
+
+
+}
+.support-text{
+
+    color: white;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 900;
+    margin-top: 6px;
+    margin-left: 15px;
+
+
+}
+
+
+.privacy{
+    display: flex;
+    flex-direction: row;
+    margin-right: 100px;
+    
+    
+
+
+
+}
+
+
+
+.privacy-icon{
+
+    width: 30px;
+    height: 30px;
+    margin-left:22px;
+
+
+
+}
+.privacy-text{
+
+    color: white;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 900;
     margin-top: 6px;
     margin-left: 15px;
 
